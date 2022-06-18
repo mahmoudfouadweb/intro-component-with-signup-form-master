@@ -73,7 +73,8 @@ body {
   padding: 1.6rem;
   margin-bottom: 1.6rem;
   box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.3);
-bo}
+  border-radius: 9px;
+}
 
 .section-subheading-form span {
   font-weight: 600;
