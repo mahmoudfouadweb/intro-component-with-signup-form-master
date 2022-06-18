@@ -8,6 +8,7 @@
 }
 
 body {
+  /* width: 144rem; */
   font-family: 'Poppins', sans-serif;
   font-size: 62.5%;
   line-height: 1;
@@ -15,14 +16,15 @@ body {
   background-image: url(./images/bg-intro-desktop.png);
   padding: 9.6rem;
   color: #fff2f2;
+  /* overflow: hidden; */
 }
 
 /**************************/
 /* GENERAL  STYLES */
 /**************************/
 
-.section {
-  width: 144rem;
+.container {
+  padding: 0 6.4rem;
 }
 
 .heading-box {
@@ -31,13 +33,17 @@ body {
 }
 
 .section-heading-primary {
-  font-size: 5rem;
+  font-size: 3.4rem;
   font-weight: 700;
+  line-height: 1.1;
   letter-spacing: -0.52px;
+  margin-bottom: 2.4rem;
+  padding-top: 2.4rem;
 }
 
 .section-text {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 .form-box {
@@ -49,13 +55,22 @@ body {
 .form {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  border-radius: 11px;
+
+  padding: 1.6rem;
 }
 
 .input {
   padding: 1.6rem;
   margin-bottom: 2.4rem;
+  border: 2px solid #ddd;
+  background-color: #fff;
   border-radius: 9px;
-  border: none;
+}
+
+.input:focus {
+  border: 2px solid #e66e6e;
 }
 
 .input::placeholder {
@@ -106,9 +121,13 @@ body {
 }
 
 .terms {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.747);
+  font-size: 1.1rem;
 }
 
 .terms-services {
+  color: #b95959;
 }
 
 /**************************/
