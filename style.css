@@ -11,22 +11,72 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 62.5%;
   line-height: 1;
+  background-color: #ff7a7a;
+  background-image: url(./images/bg-intro-desktop.png);
+  padding: 9.6rem;
+  color: #fff2f2;
 }
 
 /**************************/
 /* GENERAL  STYLES */
 /**************************/
 
+.section {
+  width: 144rem;
+}
+
+.heading-box {
+  padding: 9.6rem 0;
+  width: 100%;
+}
+
 .section-heading-primary {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -0.52px;
 }
 
 .section-text {
+  font-size: 1.6rem;
 }
 
 .form-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 1.6rem;
+  margin-bottom: 2.4rem;
+  border-radius: 9px;
+  border: none;
+}
+
+.input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  color: #666;
 }
 
 .section-subheading-form {
+  font-size: 1.4rem;
+  font-weight: 400;
+  background-color: #6055a5;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
+  box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.3);
+bo}
+
+.section-subheading-form span {
+  font-weight: 600;
 }
 
 .first-name {
@@ -42,6 +92,16 @@ body {
 }
 
 .btn {
+  padding: 1.6rem;
+  margin-bottom: 2.4rem;
+  background-color: #38cc8c;
+  border: none;
+  border-radius: 9px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
 }
 
 .terms {
@@ -56,6 +116,7 @@ body {
 
 .grid {
   display: grid;
+  gap: 2.4rem;
 }
 
 .grid-2--cols {
