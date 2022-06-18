@@ -1,3 +1,6 @@
+/**************************/
+/* GENERAL  SETTING */
+/**************************/
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +8,58 @@
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
 }
 
+/**************************/
+/* GENERAL  STYLES */
+/**************************/
+
+.section-heading-primary {
+}
+
+.section-text {
+}
+
+.form-box {
+}
+
+.section-subheading-form {
+}
+
+.first-name {
+}
+
+.last-name {
+}
+
+.email-address {
+}
+
+.password {
+}
+
+.btn {
+}
+
+.terms {
+}
+
+.terms-services {
+}
+
+/**************************/
+/* REUSEABLE STYLES */
+/**************************/
+
+.grid {
+  display: grid;
+}
+
+.grid-2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
 /*
 --- 01 TYPOGRAPHY SYSTEM
 
